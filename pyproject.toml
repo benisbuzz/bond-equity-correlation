@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "bond-equity-correlation"
+version = "0.1.0"
+description = ""
+authors = ["benisbuzz <ben@danziger.uk>"]
+readme = "README.md"
+packages = [{include = "bond_equity_correlation"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10, <3.13"
+yfinance = "^0.2.30"
+matplotlib = "^3.8.0"
+numpy = "^1.26.0"
+pandas = "^2.1.1"
+scipy = "^1.11.3"
+plotly = "^5.17.0"
+ipython = "^8.15.0"
+ipykernel = "^6.25.2"
+nbformat = "^5.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
